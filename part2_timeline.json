@@ -1,0 +1,3675 @@
+[
+ {
+  "para": 0,
+  "text": "Imagine one request has generated 1,400 tokens, while a new request has a short context.",
+  "start": 0.46,
+  "end": 5.38,
+  "words": [
+   {
+    "w": "Imagine",
+    "start": 0.46,
+    "end": 0.46
+   },
+   {
+    "w": "one",
+    "start": 0.46,
+    "end": 0.8
+   },
+   {
+    "w": "request",
+    "start": 0.8,
+    "end": 1.18
+   },
+   {
+    "w": "has",
+    "start": 1.18,
+    "end": 1.44
+   },
+   {
+    "w": "generated",
+    "start": 1.44,
+    "end": 1.94
+   },
+   {
+    "w": "1,400",
+    "start": 2.0,
+    "end": 2.66
+   },
+   {
+    "w": "tokens,",
+    "start": 2.66,
+    "end": 3.24
+   },
+   {
+    "w": "while",
+    "start": 3.64,
+    "end": 3.84
+   },
+   {
+    "w": "a",
+    "start": 3.84,
+    "end": 3.94
+   },
+   {
+    "w": "new",
+    "start": 3.94,
+    "end": 4.18
+   },
+   {
+    "w": "request",
+    "start": 4.18,
+    "end": 4.58
+   },
+   {
+    "w": "has",
+    "start": 4.58,
+    "end": 4.74
+   },
+   {
+    "w": "a",
+    "start": 4.74,
+    "end": 4.9
+   },
+   {
+    "w": "short",
+    "start": 4.9,
+    "end": 5.1
+   },
+   {
+    "w": "context.",
+    "start": 5.1,
+    "end": 5.38
+   }
+  ]
+ },
+ {
+  "para": 0,
+  "text": "Their attention histories differ in length.",
+  "start": 6.46,
+  "end": 8.0,
+  "words": [
+   {
+    "w": "Their",
+    "start": 6.46,
+    "end": 6.46
+   },
+   {
+    "w": "attention",
+    "start": 6.46,
+    "end": 6.9
+   },
+   {
+    "w": "histories",
+    "start": 6.9,
+    "end": 7.34
+   },
+   {
+    "w": "differ",
+    "start": 7.34,
+    "end": 7.7
+   },
+   {
+    "w": "in",
+    "start": 7.7,
+    "end": 7.9
+   },
+   {
+    "w": "length.",
+    "start": 7.9,
+    "end": 8.0
+   }
+  ]
+ },
+ {
+  "para": 0,
+  "text": "Each query must attend to its own cached keys and values.",
+  "start": 8.7,
+  "end": 11.56,
+  "words": [
+   {
+    "w": "Each",
+    "start": 8.7,
+    "end": 8.86
+   },
+   {
+    "w": "query",
+    "start": 8.9,
+    "end": 9.18
+   },
+   {
+    "w": "must",
+    "start": 9.18,
+    "end": 9.44
+   },
+   {
+    "w": "attend",
+    "start": 9.44,
+    "end": 9.72
+   },
+   {
+    "w": "to",
+    "start": 9.72,
+    "end": 9.9
+   },
+   {
+    "w": "its",
+    "start": 9.9,
+    "end": 10.18
+   },
+   {
+    "w": "own",
+    "start": 10.18,
+    "end": 10.5
+   },
+   {
+    "w": "cached",
+    "start": 10.52,
+    "end": 10.86
+   },
+   {
+    "w": "keys",
+    "start": 10.96,
+    "end": 11.18
+   },
+   {
+    "w": "and",
+    "start": 11.18,
+    "end": 11.4
+   },
+   {
+    "w": "values.",
+    "start": 11.4,
+    "end": 11.56
+   }
+  ]
+ },
+ {
+  "para": 0,
+  "text": "How can mismatched streams share a forward pass?",
+  "start": 12.5,
+  "end": 15.12,
+  "words": [
+   {
+    "w": "How",
+    "start": 12.5,
+    "end": 12.62
+   },
+   {
+    "w": "can",
+    "start": 12.62,
+    "end": 12.9
+   },
+   {
+    "w": "mismatched",
+    "start": 12.9,
+    "end": 13.42
+   },
+   {
+    "w": "streams",
+    "start": 13.42,
+    "end": 13.8
+   },
+   {
+    "w": "share",
+    "start": 13.8,
+    "end": 14.24
+   },
+   {
+    "w": "a",
+    "start": 14.24,
+    "end": 14.46
+   },
+   {
+    "w": "forward",
+    "start": 14.46,
+    "end": 14.7
+   },
+   {
+    "w": "pass?",
+    "start": 14.7,
+    "end": 15.12
+   }
+  ]
+ },
+ {
+  "para": 1,
+  "text": "Orca's answer was selective batching.",
+  "start": 16.14,
+  "end": 17.78,
+  "words": [
+   {
+    "w": "Orca's",
+    "start": 16.14,
+    "end": 16.36
+   },
+   {
+    "w": "answer",
+    "start": 16.36,
+    "end": 16.64
+   },
+   {
+    "w": "was",
+    "start": 16.64,
+    "end": 16.9
+   },
+   {
+    "w": "selective",
+    "start": 16.9,
+    "end": 17.36
+   },
+   {
+    "w": "batching.",
+    "start": 17.36,
+    "end": 17.78
+   }
+  ]
+ },
+ {
+  "para": 1,
+  "text": "Linear projections, including Query, Key, and Value, and the feedforward layers apply the same weights independently to each current token vector.",
+  "start": 18.52,
+  "end": 26.18,
+  "words": [
+   {
+    "w": "Linear",
+    "start": 18.52,
+    "end": 18.76
+   },
+   {
+    "w": "projections,",
+    "start": 18.76,
+    "end": 19.62
+   },
+   {
+    "w": "including",
+    "start": 19.62,
+    "end": 19.92
+   },
+   {
+    "w": "Query,",
+    "start": 19.92,
+    "end": 20.58
+   },
+   {
+    "w": "Key,",
+    "start": 20.68,
+    "end": 21.1
+   },
+   {
+    "w": "and",
+    "start": 21.1,
+    "end": 21.2
+   },
+   {
+    "w": "Value,",
+    "start": 21.2,
+    "end": 21.74
+   },
+   {
+    "w": "and",
+    "start": 21.74,
+    "end": 21.84
+   },
+   {
+    "w": "the",
+    "start": 21.84,
+    "end": 22.0
+   },
+   {
+    "w": "feedforward",
+    "start": 22.0,
+    "end": 22.44
+   },
+   {
+    "w": "layers",
+    "start": 22.44,
+    "end": 22.78
+   },
+   {
+    "w": "apply",
+    "start": 23.1,
+    "end": 23.26
+   },
+   {
+    "w": "the",
+    "start": 23.26,
+    "end": 23.48
+   },
+   {
+    "w": "same",
+    "start": 23.48,
+    "end": 23.72
+   },
+   {
+    "w": "weights",
+    "start": 23.72,
+    "end": 24.0
+   },
+   {
+    "w": "independently",
+    "start": 24.1,
+    "end": 24.76
+   },
+   {
+    "w": "to",
+    "start": 24.76,
+    "end": 24.98
+   },
+   {
+    "w": "each",
+    "start": 24.98,
+    "end": 25.3
+   },
+   {
+    "w": "current",
+    "start": 25.58,
+    "end": 25.68
+   },
+   {
+    "w": "token",
+    "start": 25.68,
+    "end": 26.08
+   },
+   {
+    "w": "vector.",
+    "start": 26.08,
+    "end": 26.18
+   }
+  ]
+ },
+ {
+  "para": 1,
+  "text": "Those vectors can be stacked into one batch, even when their conversations are at different positions.",
+  "start": 27.0,
+  "end": 31.32,
+  "words": [
+   {
+    "w": "Those",
+    "start": 27.0,
+    "end": 27.18
+   },
+   {
+    "w": "vectors",
+    "start": 27.18,
+    "end": 27.5
+   },
+   {
+    "w": "can",
+    "start": 27.5,
+    "end": 27.76
+   },
+   {
+    "w": "be",
+    "start": 27.76,
+    "end": 27.94
+   },
+   {
+    "w": "stacked",
+    "start": 27.94,
+    "end": 28.16
+   },
+   {
+    "w": "into",
+    "start": 28.18,
+    "end": 28.46
+   },
+   {
+    "w": "one",
+    "start": 28.46,
+    "end": 28.74
+   },
+   {
+    "w": "batch,",
+    "start": 28.74,
+    "end": 29.08
+   },
+   {
+    "w": "even",
+    "start": 29.32,
+    "end": 29.52
+   },
+   {
+    "w": "when",
+    "start": 29.52,
+    "end": 29.7
+   },
+   {
+    "w": "their",
+    "start": 29.7,
+    "end": 29.94
+   },
+   {
+    "w": "conversations",
+    "start": 29.94,
+    "end": 30.42
+   },
+   {
+    "w": "are",
+    "start": 30.42,
+    "end": 30.62
+   },
+   {
+    "w": "at",
+    "start": 30.62,
+    "end": 30.72
+   },
+   {
+    "w": "different",
+    "start": 30.72,
+    "end": 30.98
+   },
+   {
+    "w": "positions.",
+    "start": 30.98,
+    "end": 31.32
+   }
+  ]
+ },
+ {
+  "para": 2,
+  "text": "Attention is different: each request must read its own history.",
+  "start": 32.64,
+  "end": 35.26,
+  "words": [
+   {
+    "w": "Attention",
+    "start": 32.64,
+    "end": 32.64
+   },
+   {
+    "w": "is",
+    "start": 32.64,
+    "end": 32.84
+   },
+   {
+    "w": "different:",
+    "start": 32.84,
+    "end": 32.94
+   },
+   {
+    "w": "each",
+    "start": 33.58,
+    "end": 33.84
+   },
+   {
+    "w": "request",
+    "start": 34.08,
+    "end": 34.18
+   },
+   {
+    "w": "must",
+    "start": 34.18,
+    "end": 34.44
+   },
+   {
+    "w": "read",
+    "start": 34.44,
+    "end": 34.66
+   },
+   {
+    "w": "its",
+    "start": 34.68,
+    "end": 34.92
+   },
+   {
+    "w": "own",
+    "start": 34.92,
+    "end": 35.16
+   },
+   {
+    "w": "history.",
+    "start": 35.16,
+    "end": 35.26
+   }
+  ]
+ },
+ {
+  "para": 2,
+  "text": "Orca splits the batch before attention, processes attention separately for each request, then merges the results so later operations can be batched again.",
+  "start": 36.32,
+  "end": 44.22,
+  "words": [
+   {
+    "w": "Orca",
+    "start": 36.32,
+    "end": 36.44
+   },
+   {
+    "w": "splits",
+    "start": 36.62,
+    "end": 36.78
+   },
+   {
+    "w": "the",
+    "start": 36.78,
+    "end": 37.0
+   },
+   {
+    "w": "batch",
+    "start": 37.0,
+    "end": 37.16
+   },
+   {
+    "w": "before",
+    "start": 37.36,
+    "end": 37.54
+   },
+   {
+    "w": "attention,",
+    "start": 37.54,
+    "end": 38.4
+   },
+   {
+    "w": "processes",
+    "start": 38.4,
+    "end": 38.78
+   },
+   {
+    "w": "attention",
+    "start": 38.78,
+    "end": 39.28
+   },
+   {
+    "w": "separately",
+    "start": 39.28,
+    "end": 39.72
+   },
+   {
+    "w": "for",
+    "start": 39.72,
+    "end": 39.92
+   },
+   {
+    "w": "each",
+    "start": 39.92,
+    "end": 40.16
+   },
+   {
+    "w": "request,",
+    "start": 40.16,
+    "end": 40.94
+   },
+   {
+    "w": "then",
+    "start": 40.94,
+    "end": 41.1
+   },
+   {
+    "w": "merges",
+    "start": 41.1,
+    "end": 41.48
+   },
+   {
+    "w": "the",
+    "start": 41.48,
+    "end": 41.76
+   },
+   {
+    "w": "results",
+    "start": 41.76,
+    "end": 41.96
+   },
+   {
+    "w": "so",
+    "start": 42.04,
+    "end": 42.26
+   },
+   {
+    "w": "later",
+    "start": 42.26,
+    "end": 42.52
+   },
+   {
+    "w": "operations",
+    "start": 42.52,
+    "end": 43.0
+   },
+   {
+    "w": "can",
+    "start": 43.0,
+    "end": 43.24
+   },
+   {
+    "w": "be",
+    "start": 43.24,
+    "end": 43.4
+   },
+   {
+    "w": "batched",
+    "start": 43.4,
+    "end": 43.62
+   },
+   {
+    "w": "again.",
+    "start": 43.62,
+    "end": 44.22
+   }
+  ]
+ },
+ {
+  "para": 2,
+  "text": "This is the selective-batching design in Orca's original paper.",
+  "start": 44.42,
+  "end": 46.82,
+  "words": [
+   {
+    "w": "This",
+    "start": 44.42,
+    "end": 44.42
+   },
+   {
+    "w": "is",
+    "start": 44.42,
+    "end": 44.64
+   },
+   {
+    "w": "the",
+    "start": 44.64,
+    "end": 44.74
+   },
+   {
+    "w": "selective-batching",
+    "start": 44.74,
+    "end": 45.46
+   },
+   {
+    "w": "design",
+    "start": 45.46,
+    "end": 45.82
+   },
+   {
+    "w": "in",
+    "start": 45.82,
+    "end": 45.98
+   },
+   {
+    "w": "Orca's",
+    "start": 46.06,
+    "end": 46.42
+   },
+   {
+    "w": "original",
+    "start": 46.42,
+    "end": 46.64
+   },
+   {
+    "w": "paper.",
+    "start": 46.64,
+    "end": 46.82
+   }
+  ]
+ },
+ {
+  "para": 3,
+  "text": "In its full GPT-3 175-billion-parameter serving evaluation across 16 A100 GPUs, Orca reported 36.9 times higher throughput than request-level FasterTransformer at comparable median latency.",
+  "start": 47.98,
+  "end": 61.02,
+  "words": [
+   {
+    "w": "In",
+    "start": 47.98,
+    "end": 48.08
+   },
+   {
+    "w": "its",
+    "start": 48.2,
+    "end": 48.3
+   },
+   {
+    "w": "full",
+    "start": 48.3,
+    "end": 48.58
+   },
+   {
+    "w": "GPT-3",
+    "start": 48.58,
+    "end": 49.42
+   },
+   {
+    "w": "175-billion-parameter",
+    "start": 49.42,
+    "end": 51.2
+   },
+   {
+    "w": "serving",
+    "start": 51.2,
+    "end": 51.54
+   },
+   {
+    "w": "evaluation",
+    "start": 51.54,
+    "end": 52.1
+   },
+   {
+    "w": "across",
+    "start": 52.1,
+    "end": 52.44
+   },
+   {
+    "w": "16",
+    "start": 52.44,
+    "end": 52.98
+   },
+   {
+    "w": "A100",
+    "start": 53.04,
+    "end": 53.58
+   },
+   {
+    "w": "GPUs,",
+    "start": 53.58,
+    "end": 54.68
+   },
+   {
+    "w": "Orca",
+    "start": 54.68,
+    "end": 54.94
+   },
+   {
+    "w": "reported",
+    "start": 54.94,
+    "end": 55.38
+   },
+   {
+    "w": "36.9",
+    "start": 55.52,
+    "end": 56.7
+   },
+   {
+    "w": "times",
+    "start": 56.7,
+    "end": 57.12
+   },
+   {
+    "w": "higher",
+    "start": 57.2,
+    "end": 57.5
+   },
+   {
+    "w": "throughput",
+    "start": 57.56,
+    "end": 57.9
+   },
+   {
+    "w": "than",
+    "start": 57.92,
+    "end": 58.12
+   },
+   {
+    "w": "request-level",
+    "start": 58.12,
+    "end": 58.72
+   },
+   {
+    "w": "FasterTransformer",
+    "start": 58.76,
+    "end": 59.7
+   },
+   {
+    "w": "at",
+    "start": 59.76,
+    "end": 59.86
+   },
+   {
+    "w": "comparable",
+    "start": 59.86,
+    "end": 60.22
+   },
+   {
+    "w": "median",
+    "start": 60.22,
+    "end": 60.56
+   },
+   {
+    "w": "latency.",
+    "start": 60.56,
+    "end": 61.02
+   }
+  ]
+ },
+ {
+  "para": 3,
+  "text": "That is a specific 2022 benchmark, not a guaranteed multiplier for every system.",
+  "start": 61.66,
+  "end": 66.0,
+  "words": [
+   {
+    "w": "That",
+    "start": 61.66,
+    "end": 62.02
+   },
+   {
+    "w": "is",
+    "start": 62.14,
+    "end": 62.44
+   },
+   {
+    "w": "a",
+    "start": 62.44,
+    "end": 62.48
+   },
+   {
+    "w": "specific",
+    "start": 62.5,
+    "end": 62.94
+   },
+   {
+    "w": "2022",
+    "start": 62.94,
+    "end": 63.46
+   },
+   {
+    "w": "benchmark,",
+    "start": 63.46,
+    "end": 63.98
+   },
+   {
+    "w": "not",
+    "start": 63.98,
+    "end": 64.24
+   },
+   {
+    "w": "a",
+    "start": 64.36,
+    "end": 64.46
+   },
+   {
+    "w": "guaranteed",
+    "start": 64.46,
+    "end": 64.88
+   },
+   {
+    "w": "multiplier",
+    "start": 64.88,
+    "end": 65.3
+   },
+   {
+    "w": "for",
+    "start": 65.3,
+    "end": 65.6
+   },
+   {
+    "w": "every",
+    "start": 65.78,
+    "end": 65.88
+   },
+   {
+    "w": "system.",
+    "start": 65.88,
+    "end": 66.0
+   }
+  ]
+ },
+ {
+  "para": 4,
+  "text": "But once requests enter and leave freely, memory fragmentation becomes a problem.",
+  "start": 67.46,
+  "end": 71.72,
+  "words": [
+   {
+    "w": "But",
+    "start": 67.46,
+    "end": 67.46
+   },
+   {
+    "w": "once",
+    "start": 67.46,
+    "end": 67.94
+   },
+   {
+    "w": "requests",
+    "start": 67.94,
+    "end": 68.34
+   },
+   {
+    "w": "enter",
+    "start": 68.44,
+    "end": 68.88
+   },
+   {
+    "w": "and",
+    "start": 68.88,
+    "end": 69.02
+   },
+   {
+    "w": "leave",
+    "start": 69.02,
+    "end": 69.28
+   },
+   {
+    "w": "freely,",
+    "start": 69.28,
+    "end": 70.18
+   },
+   {
+    "w": "memory",
+    "start": 70.18,
+    "end": 70.4
+   },
+   {
+    "w": "fragmentation",
+    "start": 70.88,
+    "end": 70.98
+   },
+   {
+    "w": "becomes",
+    "start": 70.98,
+    "end": 71.3
+   },
+   {
+    "w": "a",
+    "start": 71.42,
+    "end": 71.52
+   },
+   {
+    "w": "problem.",
+    "start": 71.52,
+    "end": 71.72
+   }
+  ]
+ },
+ {
+  "para": 4,
+  "text": "Reserving one contiguous, maximum-length KV-cache region for every request leaves much of that space unused for short conversations.",
+  "start": 72.58,
+  "end": 79.42,
+  "words": [
+   {
+    "w": "Reserving",
+    "start": 72.58,
+    "end": 72.78
+   },
+   {
+    "w": "one",
+    "start": 72.78,
+    "end": 73.18
+   },
+   {
+    "w": "contiguous,",
+    "start": 73.18,
+    "end": 74.14
+   },
+   {
+    "w": "maximum-length",
+    "start": 74.14,
+    "end": 74.74
+   },
+   {
+    "w": "KV-cache",
+    "start": 74.8,
+    "end": 75.5
+   },
+   {
+    "w": "region",
+    "start": 75.5,
+    "end": 75.78
+   },
+   {
+    "w": "for",
+    "start": 75.78,
+    "end": 76.04
+   },
+   {
+    "w": "every",
+    "start": 76.04,
+    "end": 76.34
+   },
+   {
+    "w": "request",
+    "start": 76.34,
+    "end": 76.72
+   },
+   {
+    "w": "leaves",
+    "start": 76.84,
+    "end": 77.1
+   },
+   {
+    "w": "much",
+    "start": 77.14,
+    "end": 77.46
+   },
+   {
+    "w": "of",
+    "start": 77.46,
+    "end": 77.56
+   },
+   {
+    "w": "that",
+    "start": 77.56,
+    "end": 77.74
+   },
+   {
+    "w": "space",
+    "start": 77.94,
+    "end": 78.04
+   },
+   {
+    "w": "unused",
+    "start": 78.04,
+    "end": 78.52
+   },
+   {
+    "w": "for",
+    "start": 78.6,
+    "end": 78.74
+   },
+   {
+    "w": "short",
+    "start": 78.74,
+    "end": 78.98
+   },
+   {
+    "w": "conversations.",
+    "start": 78.98,
+    "end": 79.42
+   }
+  ]
+ },
+ {
+  "para": 4,
+  "text": "These holes can prevent the system from fitting more requests into VRAM.",
+  "start": 80.3,
+  "end": 83.44,
+  "words": [
+   {
+    "w": "These",
+    "start": 80.3,
+    "end": 80.52
+   },
+   {
+    "w": "holes",
+    "start": 80.58,
+    "end": 80.92
+   },
+   {
+    "w": "can",
+    "start": 80.92,
+    "end": 81.18
+   },
+   {
+    "w": "prevent",
+    "start": 81.18,
+    "end": 81.48
+   },
+   {
+    "w": "the",
+    "start": 81.48,
+    "end": 81.64
+   },
+   {
+    "w": "system",
+    "start": 81.64,
+    "end": 81.9
+   },
+   {
+    "w": "from",
+    "start": 81.9,
+    "end": 82.14
+   },
+   {
+    "w": "fitting",
+    "start": 82.14,
+    "end": 82.3
+   },
+   {
+    "w": "more",
+    "start": 82.3,
+    "end": 82.64
+   },
+   {
+    "w": "requests",
+    "start": 82.64,
+    "end": 83.02
+   },
+   {
+    "w": "into",
+    "start": 83.04,
+    "end": 83.26
+   },
+   {
+    "w": "VRAM.",
+    "start": 83.26,
+    "end": 83.44
+   }
+  ]
+ },
+ {
+  "para": 5,
+  "text": "PagedAttention tackles this with a virtual-memory-inspired design.",
+  "start": 84.5,
+  "end": 87.5,
+  "words": [
+   {
+    "w": "PagedAttention",
+    "start": 84.5,
+    "end": 85.18
+   },
+   {
+    "w": "tackles",
+    "start": 85.18,
+    "end": 85.58
+   },
+   {
+    "w": "this",
+    "start": 85.58,
+    "end": 85.82
+   },
+   {
+    "w": "with",
+    "start": 85.82,
+    "end": 85.96
+   },
+   {
+    "w": "a",
+    "start": 85.96,
+    "end": 86.18
+   },
+   {
+    "w": "virtual-memory-inspired",
+    "start": 86.18,
+    "end": 87.28
+   },
+   {
+    "w": "design.",
+    "start": 87.28,
+    "end": 87.5
+   }
+  ]
+ },
+ {
+  "para": 5,
+  "text": "It divides each request's KV cache into fixed-size blocks instead of requiring one contiguous slab.",
+  "start": 88.44,
+  "end": 94.38,
+  "words": [
+   {
+    "w": "It",
+    "start": 88.44,
+    "end": 88.44
+   },
+   {
+    "w": "divides",
+    "start": 88.44,
+    "end": 88.82
+   },
+   {
+    "w": "each",
+    "start": 88.82,
+    "end": 89.18
+   },
+   {
+    "w": "request's",
+    "start": 89.18,
+    "end": 89.78
+   },
+   {
+    "w": "KV",
+    "start": 89.78,
+    "end": 90.1
+   },
+   {
+    "w": "cache",
+    "start": 90.1,
+    "end": 90.4
+   },
+   {
+    "w": "into",
+    "start": 90.46,
+    "end": 90.8
+   },
+   {
+    "w": "fixed-size",
+    "start": 91.42,
+    "end": 91.52
+   },
+   {
+    "w": "blocks",
+    "start": 91.52,
+    "end": 91.96
+   },
+   {
+    "w": "instead",
+    "start": 91.96,
+    "end": 92.56
+   },
+   {
+    "w": "of",
+    "start": 92.56,
+    "end": 92.72
+   },
+   {
+    "w": "requiring",
+    "start": 92.72,
+    "end": 93.1
+   },
+   {
+    "w": "one",
+    "start": 93.1,
+    "end": 93.58
+   },
+   {
+    "w": "contiguous",
+    "start": 93.58,
+    "end": 94.14
+   },
+   {
+    "w": "slab.",
+    "start": 94.14,
+    "end": 94.38
+   }
+  ]
+ },
+ {
+  "para": 5,
+  "text": "A block table maps each request's token positions to physical GPU-memory blocks.",
+  "start": 95.08,
+  "end": 99.6,
+  "words": [
+   {
+    "w": "A",
+    "start": 95.08,
+    "end": 95.26
+   },
+   {
+    "w": "block",
+    "start": 95.26,
+    "end": 95.52
+   },
+   {
+    "w": "table",
+    "start": 95.52,
+    "end": 95.8
+   },
+   {
+    "w": "maps",
+    "start": 95.8,
+    "end": 96.2
+   },
+   {
+    "w": "each",
+    "start": 96.2,
+    "end": 96.58
+   },
+   {
+    "w": "request's",
+    "start": 96.58,
+    "end": 97.22
+   },
+   {
+    "w": "token",
+    "start": 97.22,
+    "end": 97.44
+   },
+   {
+    "w": "positions",
+    "start": 97.44,
+    "end": 97.9
+   },
+   {
+    "w": "to",
+    "start": 98.08,
+    "end": 98.18
+   },
+   {
+    "w": "physical",
+    "start": 98.18,
+    "end": 98.66
+   },
+   {
+    "w": "GPU-memory",
+    "start": 98.66,
+    "end": 99.5
+   },
+   {
+    "w": "blocks.",
+    "start": 99.5,
+    "end": 99.6
+   }
+  ]
+ },
+ {
+  "para": 6,
+  "text": "Blocks are allocated as sequences grow and returned to the memory pool when no longer needed.",
+  "start": 100.7,
+  "end": 105.1,
+  "words": [
+   {
+    "w": "Blocks",
+    "start": 100.7,
+    "end": 100.92
+   },
+   {
+    "w": "are",
+    "start": 100.92,
+    "end": 101.1
+   },
+   {
+    "w": "allocated",
+    "start": 101.1,
+    "end": 101.6
+   },
+   {
+    "w": "as",
+    "start": 101.6,
+    "end": 101.82
+   },
+   {
+    "w": "sequences",
+    "start": 101.82,
+    "end": 102.26
+   },
+   {
+    "w": "grow",
+    "start": 102.26,
+    "end": 102.7
+   },
+   {
+    "w": "and",
+    "start": 102.7,
+    "end": 103.08
+   },
+   {
+    "w": "returned",
+    "start": 103.08,
+    "end": 103.36
+   },
+   {
+    "w": "to",
+    "start": 103.36,
+    "end": 103.52
+   },
+   {
+    "w": "the",
+    "start": 103.52,
+    "end": 103.7
+   },
+   {
+    "w": "memory",
+    "start": 103.84,
+    "end": 103.94
+   },
+   {
+    "w": "pool",
+    "start": 103.94,
+    "end": 104.14
+   },
+   {
+    "w": "when",
+    "start": 104.14,
+    "end": 104.34
+   },
+   {
+    "w": "no",
+    "start": 104.34,
+    "end": 104.58
+   },
+   {
+    "w": "longer",
+    "start": 104.58,
+    "end": 104.82
+   },
+   {
+    "w": "needed.",
+    "start": 104.82,
+    "end": 105.1
+   }
+  ]
+ },
+ {
+  "para": 6,
+  "text": "This greatly reduces fragmentation and avoids reserving a huge slab for every request.",
+  "start": 105.78,
+  "end": 110.3,
+  "words": [
+   {
+    "w": "This",
+    "start": 105.78,
+    "end": 106.08
+   },
+   {
+    "w": "greatly",
+    "start": 106.08,
+    "end": 106.46
+   },
+   {
+    "w": "reduces",
+    "start": 106.46,
+    "end": 106.94
+   },
+   {
+    "w": "fragmentation",
+    "start": 106.94,
+    "end": 107.68
+   },
+   {
+    "w": "and",
+    "start": 107.68,
+    "end": 107.98
+   },
+   {
+    "w": "avoids",
+    "start": 107.98,
+    "end": 108.28
+   },
+   {
+    "w": "reserving",
+    "start": 108.28,
+    "end": 108.64
+   },
+   {
+    "w": "a",
+    "start": 108.64,
+    "end": 108.96
+   },
+   {
+    "w": "huge",
+    "start": 108.96,
+    "end": 109.3
+   },
+   {
+    "w": "slab",
+    "start": 109.3,
+    "end": 109.68
+   },
+   {
+    "w": "for",
+    "start": 109.76,
+    "end": 109.92
+   },
+   {
+    "w": "every",
+    "start": 110.0,
+    "end": 110.2
+   },
+   {
+    "w": "request.",
+    "start": 110.2,
+    "end": 110.3
+   }
+  ]
+ },
+ {
+  "para": 6,
+  "text": "It makes VRAM more efficiently shareable; it does not make physical memory unlimited.",
+  "start": 111.32,
+  "end": 116.26,
+  "words": [
+   {
+    "w": "It",
+    "start": 111.32,
+    "end": 111.38
+   },
+   {
+    "w": "makes",
+    "start": 111.38,
+    "end": 111.64
+   },
+   {
+    "w": "VRAM",
+    "start": 111.64,
+    "end": 111.98
+   },
+   {
+    "w": "more",
+    "start": 112.24,
+    "end": 112.34
+   },
+   {
+    "w": "efficiently",
+    "start": 112.34,
+    "end": 112.86
+   },
+   {
+    "w": "shareable;",
+    "start": 112.86,
+    "end": 113.4
+   },
+   {
+    "w": "it",
+    "start": 113.52,
+    "end": 113.62
+   },
+   {
+    "w": "does",
+    "start": 113.62,
+    "end": 113.86
+   },
+   {
+    "w": "not",
+    "start": 113.86,
+    "end": 114.02
+   },
+   {
+    "w": "make",
+    "start": 114.02,
+    "end": 114.14
+   },
+   {
+    "w": "physical",
+    "start": 114.18,
+    "end": 114.5
+   },
+   {
+    "w": "memory",
+    "start": 114.5,
+    "end": 114.9
+   },
+   {
+    "w": "unlimited.",
+    "start": 114.9,
+    "end": 116.26
+   }
+  ]
+ },
+ {
+  "para": 7,
+  "text": "One more stall can still disrupt the stream.",
+  "start": 116.52,
+  "end": 119.32,
+  "words": [
+   {
+    "w": "One",
+    "start": 116.52,
+    "end": 116.52
+   },
+   {
+    "w": "more",
+    "start": 116.52,
+    "end": 116.9
+   },
+   {
+    "w": "stall",
+    "start": 116.9,
+    "end": 117.16
+   },
+   {
+    "w": "can",
+    "start": 117.16,
+    "end": 117.54
+   },
+   {
+    "w": "still",
+    "start": 117.54,
+    "end": 117.82
+   },
+   {
+    "w": "disrupt",
+    "start": 117.82,
+    "end": 118.14
+   },
+   {
+    "w": "the",
+    "start": 118.16,
+    "end": 118.38
+   },
+   {
+    "w": "stream.",
+    "start": 118.38,
+    "end": 119.32
+   }
+  ]
+ },
+ {
+  "para": 7,
+  "text": "Imagine 31 chats generating smoothly when a new request arrives with a 10,000-token codebase prompt.",
+  "start": 119.68,
+  "end": 125.24,
+  "words": [
+   {
+    "w": "Imagine",
+    "start": 119.68,
+    "end": 119.68
+   },
+   {
+    "w": "31",
+    "start": 119.68,
+    "end": 120.38
+   },
+   {
+    "w": "chats",
+    "start": 120.38,
+    "end": 120.8
+   },
+   {
+    "w": "generating",
+    "start": 120.88,
+    "end": 121.3
+   },
+   {
+    "w": "smoothly",
+    "start": 121.3,
+    "end": 121.86
+   },
+   {
+    "w": "when",
+    "start": 121.94,
+    "end": 122.2
+   },
+   {
+    "w": "a",
+    "start": 122.2,
+    "end": 122.4
+   },
+   {
+    "w": "new",
+    "start": 122.4,
+    "end": 122.6
+   },
+   {
+    "w": "request",
+    "start": 122.64,
+    "end": 122.86
+   },
+   {
+    "w": "arrives",
+    "start": 122.86,
+    "end": 123.22
+   },
+   {
+    "w": "with",
+    "start": 123.22,
+    "end": 123.44
+   },
+   {
+    "w": "a",
+    "start": 123.54,
+    "end": 123.64
+   },
+   {
+    "w": "10,000-token",
+    "start": 123.64,
+    "end": 124.52
+   },
+   {
+    "w": "codebase",
+    "start": 124.52,
+    "end": 125.06
+   },
+   {
+    "w": "prompt.",
+    "start": 125.06,
+    "end": 125.24
+   }
+  ]
+ },
+ {
+  "para": 7,
+  "text": "If the scheduler processes that entire prefill in one monolithic step, it can delay the next decode step for all 31 chats.",
+  "start": 126.0,
+  "end": 133.4,
+  "words": [
+   {
+    "w": "If",
+    "start": 126.0,
+    "end": 126.1
+   },
+   {
+    "w": "the",
+    "start": 126.1,
+    "end": 126.32
+   },
+   {
+    "w": "scheduler",
+    "start": 126.32,
+    "end": 126.7
+   },
+   {
+    "w": "processes",
+    "start": 126.7,
+    "end": 127.12
+   },
+   {
+    "w": "that",
+    "start": 127.12,
+    "end": 127.44
+   },
+   {
+    "w": "entire",
+    "start": 127.44,
+    "end": 128.06
+   },
+   {
+    "w": "prefill",
+    "start": 128.1,
+    "end": 128.6
+   },
+   {
+    "w": "in",
+    "start": 128.6,
+    "end": 128.8
+   },
+   {
+    "w": "one",
+    "start": 128.8,
+    "end": 129.08
+   },
+   {
+    "w": "monolithic",
+    "start": 129.08,
+    "end": 129.62
+   },
+   {
+    "w": "step,",
+    "start": 129.62,
+    "end": 129.9
+   },
+   {
+    "w": "it",
+    "start": 130.3,
+    "end": 130.42
+   },
+   {
+    "w": "can",
+    "start": 130.44,
+    "end": 130.64
+   },
+   {
+    "w": "delay",
+    "start": 130.64,
+    "end": 130.88
+   },
+   {
+    "w": "the",
+    "start": 130.88,
+    "end": 131.02
+   },
+   {
+    "w": "next",
+    "start": 131.02,
+    "end": 131.32
+   },
+   {
+    "w": "decode",
+    "start": 131.32,
+    "end": 131.7
+   },
+   {
+    "w": "step",
+    "start": 131.7,
+    "end": 131.9
+   },
+   {
+    "w": "for",
+    "start": 131.94,
+    "end": 132.2
+   },
+   {
+    "w": "all",
+    "start": 132.36,
+    "end": 132.46
+   },
+   {
+    "w": "31",
+    "start": 132.46,
+    "end": 132.92
+   },
+   {
+    "w": "chats.",
+    "start": 132.92,
+    "end": 133.4
+   }
+  ]
+ },
+ {
+  "para": 8,
+  "text": "Sarathi-Serve addresses this with chunked prefill.",
+  "start": 134.36,
+  "end": 136.7,
+  "words": [
+   {
+    "w": "Sarathi-Serve",
+    "start": 134.36,
+    "end": 135.14
+   },
+   {
+    "w": "addresses",
+    "start": 135.14,
+    "end": 135.54
+   },
+   {
+    "w": "this",
+    "start": 135.54,
+    "end": 135.84
+   },
+   {
+    "w": "with",
+    "start": 136.02,
+    "end": 136.12
+   },
+   {
+    "w": "chunked",
+    "start": 136.12,
+    "end": 136.6
+   },
+   {
+    "w": "prefill.",
+    "start": 136.6,
+    "end": 136.7
+   }
+  ]
+ },
+ {
+  "para": 8,
+  "text": "The scheduler divides a long prompt into bounded pieces.",
+  "start": 137.42,
+  "end": 139.72,
+  "words": [
+   {
+    "w": "The",
+    "start": 137.42,
+    "end": 137.64
+   },
+   {
+    "w": "scheduler",
+    "start": 137.64,
+    "end": 138.02
+   },
+   {
+    "w": "divides",
+    "start": 138.02,
+    "end": 138.28
+   },
+   {
+    "w": "a",
+    "start": 138.28,
+    "end": 138.52
+   },
+   {
+    "w": "long",
+    "start": 138.52,
+    "end": 138.72
+   },
+   {
+    "w": "prompt",
+    "start": 138.78,
+    "end": 139.0
+   },
+   {
+    "w": "into",
+    "start": 139.0,
+    "end": 139.3
+   },
+   {
+    "w": "bounded",
+    "start": 139.32,
+    "end": 139.62
+   },
+   {
+    "w": "pieces.",
+    "start": 139.62,
+    "end": 139.72
+   }
+  ]
+ },
+ {
+  "para": 8,
+  "text": "With a 512-token budget, for example, it schedules 31 ongoing decode tokens first, then uses the remaining 481 positions for part of the new prompt.",
+  "start": 140.7,
+  "end": 150.42,
+  "words": [
+   {
+    "w": "With",
+    "start": 140.7,
+    "end": 140.7
+   },
+   {
+    "w": "a",
+    "start": 140.7,
+    "end": 140.96
+   },
+   {
+    "w": "512-token",
+    "start": 140.96,
+    "end": 141.92
+   },
+   {
+    "w": "budget,",
+    "start": 141.92,
+    "end": 142.24
+   },
+   {
+    "w": "for",
+    "start": 142.36,
+    "end": 142.52
+   },
+   {
+    "w": "example,",
+    "start": 142.52,
+    "end": 143.16
+   },
+   {
+    "w": "it",
+    "start": 143.16,
+    "end": 143.36
+   },
+   {
+    "w": "schedules",
+    "start": 143.36,
+    "end": 143.66
+   },
+   {
+    "w": "31",
+    "start": 143.76,
+    "end": 144.3
+   },
+   {
+    "w": "ongoing",
+    "start": 144.3,
+    "end": 144.86
+   },
+   {
+    "w": "decode",
+    "start": 144.86,
+    "end": 145.28
+   },
+   {
+    "w": "tokens",
+    "start": 145.28,
+    "end": 145.54
+   },
+   {
+    "w": "first,",
+    "start": 145.54,
+    "end": 145.92
+   },
+   {
+    "w": "then",
+    "start": 146.28,
+    "end": 146.52
+   },
+   {
+    "w": "uses",
+    "start": 146.52,
+    "end": 146.82
+   },
+   {
+    "w": "the",
+    "start": 146.82,
+    "end": 147.02
+   },
+   {
+    "w": "remaining",
+    "start": 147.02,
+    "end": 147.34
+   },
+   {
+    "w": "481",
+    "start": 147.36,
+    "end": 148.26
+   },
+   {
+    "w": "positions",
+    "start": 148.26,
+    "end": 148.72
+   },
+   {
+    "w": "for",
+    "start": 148.72,
+    "end": 148.94
+   },
+   {
+    "w": "part",
+    "start": 148.98,
+    "end": 149.18
+   },
+   {
+    "w": "of",
+    "start": 149.18,
+    "end": 149.34
+   },
+   {
+    "w": "the",
+    "start": 149.34,
+    "end": 149.42
+   },
+   {
+    "w": "new",
+    "start": 149.42,
+    "end": 149.6
+   },
+   {
+    "w": "prompt.",
+    "start": 149.6,
+    "end": 150.42
+   }
+  ]
+ },
+ {
+  "para": 8,
+  "text": "Another chunk can run in a later iteration.",
+  "start": 150.72,
+  "end": 152.36,
+  "words": [
+   {
+    "w": "Another",
+    "start": 150.72,
+    "end": 150.72
+   },
+   {
+    "w": "chunk",
+    "start": 150.72,
+    "end": 151.0
+   },
+   {
+    "w": "can",
+    "start": 151.08,
+    "end": 151.24
+   },
+   {
+    "w": "run",
+    "start": 151.24,
+    "end": 151.5
+   },
+   {
+    "w": "in",
+    "start": 151.5,
+    "end": 151.7
+   },
+   {
+    "w": "a",
+    "start": 151.7,
+    "end": 151.76
+   },
+   {
+    "w": "later",
+    "start": 151.76,
+    "end": 151.98
+   },
+   {
+    "w": "iteration.",
+    "start": 151.98,
+    "end": 152.36
+   }
+  ]
+ },
+ {
+  "para": 9,
+  "text": "This limits how much a long prefill can interrupt ongoing decode.",
+  "start": 153.44,
+  "end": 156.6,
+  "words": [
+   {
+    "w": "This",
+    "start": 153.44,
+    "end": 153.52
+   },
+   {
+    "w": "limits",
+    "start": 153.54,
+    "end": 153.9
+   },
+   {
+    "w": "how",
+    "start": 153.9,
+    "end": 154.18
+   },
+   {
+    "w": "much",
+    "start": 154.18,
+    "end": 154.38
+   },
+   {
+    "w": "a",
+    "start": 154.38,
+    "end": 154.56
+   },
+   {
+    "w": "long",
+    "start": 154.56,
+    "end": 154.76
+   },
+   {
+    "w": "prefill",
+    "start": 154.76,
+    "end": 155.2
+   },
+   {
+    "w": "can",
+    "start": 155.22,
+    "end": 155.5
+   },
+   {
+    "w": "interrupt",
+    "start": 155.5,
+    "end": 155.92
+   },
+   {
+    "w": "ongoing",
+    "start": 155.94,
+    "end": 156.42
+   },
+   {
+    "w": "decode.",
+    "start": 156.42,
+    "end": 156.6
+   }
+  ]
+ },
+ {
+  "para": 9,
+  "text": "Combining compute-heavy prefill work with memory-bound decode can also increase useful computation alongside model-weight traffic, using GPU capacity that decode alone may leave underutilized.",
+  "start": 157.58,
+  "end": 167.5,
+  "words": [
+   {
+    "w": "Combining",
+    "start": 157.58,
+    "end": 157.84
+   },
+   {
+    "w": "compute-heavy",
+    "start": 157.84,
+    "end": 158.5
+   },
+   {
+    "w": "prefill",
+    "start": 158.62,
+    "end": 159.02
+   },
+   {
+    "w": "work",
+    "start": 159.02,
+    "end": 159.2
+   },
+   {
+    "w": "with",
+    "start": 159.2,
+    "end": 159.44
+   },
+   {
+    "w": "memory-bound",
+    "start": 159.44,
+    "end": 159.98
+   },
+   {
+    "w": "decode",
+    "start": 160.02,
+    "end": 160.42
+   },
+   {
+    "w": "can",
+    "start": 160.42,
+    "end": 160.76
+   },
+   {
+    "w": "also",
+    "start": 160.76,
+    "end": 161.1
+   },
+   {
+    "w": "increase",
+    "start": 161.1,
+    "end": 161.46
+   },
+   {
+    "w": "useful",
+    "start": 161.46,
+    "end": 161.86
+   },
+   {
+    "w": "computation",
+    "start": 161.86,
+    "end": 162.52
+   },
+   {
+    "w": "alongside",
+    "start": 162.52,
+    "end": 163.02
+   },
+   {
+    "w": "model-weight",
+    "start": 163.02,
+    "end": 163.54
+   },
+   {
+    "w": "traffic,",
+    "start": 163.54,
+    "end": 163.78
+   },
+   {
+    "w": "using",
+    "start": 164.32,
+    "end": 164.64
+   },
+   {
+    "w": "GPU",
+    "start": 164.64,
+    "end": 165.06
+   },
+   {
+    "w": "capacity",
+    "start": 165.06,
+    "end": 165.6
+   },
+   {
+    "w": "that",
+    "start": 165.6,
+    "end": 165.82
+   },
+   {
+    "w": "decode",
+    "start": 165.82,
+    "end": 166.2
+   },
+   {
+    "w": "alone",
+    "start": 166.2,
+    "end": 166.56
+   },
+   {
+    "w": "may",
+    "start": 166.56,
+    "end": 166.84
+   },
+   {
+    "w": "leave",
+    "start": 166.84,
+    "end": 167.1
+   },
+   {
+    "w": "underutilized.",
+    "start": 167.1,
+    "end": 167.5
+   }
+  ]
+ },
+ {
+  "para": 9,
+  "text": "The benefit depends on workload and scheduler settings.",
+  "start": 168.62,
+  "end": 170.5,
+  "words": [
+   {
+    "w": "The",
+    "start": 168.62,
+    "end": 168.62
+   },
+   {
+    "w": "benefit",
+    "start": 168.62,
+    "end": 168.74
+   },
+   {
+    "w": "depends",
+    "start": 168.74,
+    "end": 169.08
+   },
+   {
+    "w": "on",
+    "start": 169.08,
+    "end": 169.28
+   },
+   {
+    "w": "workload",
+    "start": 169.28,
+    "end": 169.68
+   },
+   {
+    "w": "and",
+    "start": 169.68,
+    "end": 169.94
+   },
+   {
+    "w": "scheduler",
+    "start": 170.3,
+    "end": 170.4
+   },
+   {
+    "w": "settings.",
+    "start": 170.4,
+    "end": 170.5
+   }
+  ]
+ },
+ {
+  "para": 10,
+  "text": "The trade-off is time-to-first-token: spreading a prompt across iterations can delay its first response.",
+  "start": 171.86,
+  "end": 177.04,
+  "words": [
+   {
+    "w": "The",
+    "start": 171.86,
+    "end": 171.86
+   },
+   {
+    "w": "trade-off",
+    "start": 172.12,
+    "end": 172.22
+   },
+   {
+    "w": "is",
+    "start": 172.22,
+    "end": 172.5
+   },
+   {
+    "w": "time-to-first-token:",
+    "start": 172.5,
+    "end": 173.42
+   },
+   {
+    "w": "spreading",
+    "start": 174.14,
+    "end": 174.38
+   },
+   {
+    "w": "a",
+    "start": 174.38,
+    "end": 174.58
+   },
+   {
+    "w": "prompt",
+    "start": 174.58,
+    "end": 174.76
+   },
+   {
+    "w": "across",
+    "start": 174.76,
+    "end": 175.16
+   },
+   {
+    "w": "iterations",
+    "start": 175.16,
+    "end": 175.66
+   },
+   {
+    "w": "can",
+    "start": 175.66,
+    "end": 176.02
+   },
+   {
+    "w": "delay",
+    "start": 176.02,
+    "end": 176.3
+   },
+   {
+    "w": "its",
+    "start": 176.3,
+    "end": 176.54
+   },
+   {
+    "w": "first",
+    "start": 176.54,
+    "end": 176.76
+   },
+   {
+    "w": "response.",
+    "start": 176.76,
+    "end": 177.04
+   }
+  ]
+ },
+ {
+  "para": 10,
+  "text": "Chunk size balances prompt latency against smooth streaming.",
+  "start": 177.82,
+  "end": 180.68,
+  "words": [
+   {
+    "w": "Chunk",
+    "start": 177.82,
+    "end": 178.08
+   },
+   {
+    "w": "size",
+    "start": 178.08,
+    "end": 178.32
+   },
+   {
+    "w": "balances",
+    "start": 178.32,
+    "end": 178.76
+   },
+   {
+    "w": "prompt",
+    "start": 178.76,
+    "end": 179.12
+   },
+   {
+    "w": "latency",
+    "start": 179.12,
+    "end": 179.58
+   },
+   {
+    "w": "against",
+    "start": 179.58,
+    "end": 180.02
+   },
+   {
+    "w": "smooth",
+    "start": 180.3,
+    "end": 180.4
+   },
+   {
+    "w": "streaming.",
+    "start": 180.4,
+    "end": 180.68
+   }
+  ]
+ },
+ {
+  "para": 10,
+  "text": "A separate approach, disaggregated serving, runs prefill and decode on different GPU pools.",
+  "start": 181.4,
+  "end": 185.78,
+  "words": [
+   {
+    "w": "A",
+    "start": 181.4,
+    "end": 181.58
+   },
+   {
+    "w": "separate",
+    "start": 181.58,
+    "end": 181.76
+   },
+   {
+    "w": "approach,",
+    "start": 181.76,
+    "end": 182.34
+   },
+   {
+    "w": "disaggregated",
+    "start": 182.34,
+    "end": 182.94
+   },
+   {
+    "w": "serving,",
+    "start": 182.94,
+    "end": 183.34
+   },
+   {
+    "w": "runs",
+    "start": 183.34,
+    "end": 183.66
+   },
+   {
+    "w": "prefill",
+    "start": 183.72,
+    "end": 184.16
+   },
+   {
+    "w": "and",
+    "start": 184.16,
+    "end": 184.34
+   },
+   {
+    "w": "decode",
+    "start": 184.34,
+    "end": 184.64
+   },
+   {
+    "w": "on",
+    "start": 184.64,
+    "end": 184.86
+   },
+   {
+    "w": "different",
+    "start": 184.86,
+    "end": 185.16
+   },
+   {
+    "w": "GPU",
+    "start": 185.38,
+    "end": 185.58
+   },
+   {
+    "w": "pools.",
+    "start": 185.58,
+    "end": 185.78
+   }
+  ]
+ },
+ {
+  "para": 10,
+  "text": "That reduces phase interference but requires transferring KV-cache state between them.",
+  "start": 186.58,
+  "end": 191.06,
+  "words": [
+   {
+    "w": "That",
+    "start": 186.58,
+    "end": 186.84
+   },
+   {
+    "w": "reduces",
+    "start": 186.84,
+    "end": 187.42
+   },
+   {
+    "w": "phase",
+    "start": 187.42,
+    "end": 187.76
+   },
+   {
+    "w": "interference",
+    "start": 187.76,
+    "end": 188.32
+   },
+   {
+    "w": "but",
+    "start": 188.6,
+    "end": 188.7
+   },
+   {
+    "w": "requires",
+    "start": 188.7,
+    "end": 189.22
+   },
+   {
+    "w": "transferring",
+    "start": 189.22,
+    "end": 189.76
+   },
+   {
+    "w": "KV-cache",
+    "start": 189.76,
+    "end": 190.48
+   },
+   {
+    "w": "state",
+    "start": 190.48,
+    "end": 190.68
+   },
+   {
+    "w": "between",
+    "start": 190.74,
+    "end": 190.96
+   },
+   {
+    "w": "them.",
+    "start": 190.96,
+    "end": 191.06
+   }
+  ]
+ },
+ {
+  "para": 11,
+  "text": "And remember, the 295-FLOPs-per-byte ridge is not a universal batch-size limit.",
+  "start": 191.96,
+  "end": 197.2,
+  "words": [
+   {
+    "w": "And",
+    "start": 191.96,
+    "end": 192.02
+   },
+   {
+    "w": "remember,",
+    "start": 192.02,
+    "end": 192.68
+   },
+   {
+    "w": "the",
+    "start": 192.68,
+    "end": 193.0
+   },
+   {
+    "w": "295-FLOPs-per-byte",
+    "start": 193.0,
+    "end": 194.8
+   },
+   {
+    "w": "ridge",
+    "start": 194.8,
+    "end": 195.12
+   },
+   {
+    "w": "is",
+    "start": 195.12,
+    "end": 195.46
+   },
+   {
+    "w": "not",
+    "start": 195.46,
+    "end": 195.82
+   },
+   {
+    "w": "a",
+    "start": 195.82,
+    "end": 195.98
+   },
+   {
+    "w": "universal",
+    "start": 195.98,
+    "end": 196.52
+   },
+   {
+    "w": "batch-size",
+    "start": 196.52,
+    "end": 197.04
+   },
+   {
+    "w": "limit.",
+    "start": 197.04,
+    "end": 197.2
+   }
+  ]
+ },
+ {
+  "para": 11,
+  "text": "It is an idealized calculation based on model-weight traffic.",
+  "start": 197.98,
+  "end": 201.78,
+  "words": [
+   {
+    "w": "It",
+    "start": 197.98,
+    "end": 197.98
+   },
+   {
+    "w": "is",
+    "start": 197.98,
+    "end": 198.2
+   },
+   {
+    "w": "an",
+    "start": 198.2,
+    "end": 198.38
+   },
+   {
+    "w": "idealized",
+    "start": 198.38,
+    "end": 199.04
+   },
+   {
+    "w": "calculation",
+    "start": 199.04,
+    "end": 199.66
+   },
+   {
+    "w": "based",
+    "start": 199.66,
+    "end": 200.0
+   },
+   {
+    "w": "on",
+    "start": 200.0,
+    "end": 200.24
+   },
+   {
+    "w": "model-weight",
+    "start": 200.24,
+    "end": 200.6
+   },
+   {
+    "w": "traffic.",
+    "start": 200.6,
+    "end": 201.78
+   }
+  ]
+ },
+ {
+  "para": 11,
+  "text": "Larger batches and longer contexts add KV-cache reads.",
+  "start": 201.86,
+  "end": 205.76,
+  "words": [
+   {
+    "w": "Larger",
+    "start": 201.86,
+    "end": 201.96
+   },
+   {
+    "w": "batches",
+    "start": 201.96,
+    "end": 202.46
+   },
+   {
+    "w": "and",
+    "start": 202.46,
+    "end": 202.6
+   },
+   {
+    "w": "longer",
+    "start": 202.6,
+    "end": 202.96
+   },
+   {
+    "w": "contexts",
+    "start": 202.96,
+    "end": 203.54
+   },
+   {
+    "w": "add",
+    "start": 203.68,
+    "end": 203.98
+   },
+   {
+    "w": "KV-cache",
+    "start": 203.98,
+    "end": 204.64
+   },
+   {
+    "w": "reads.",
+    "start": 204.64,
+    "end": 205.76
+   }
+  ]
+ },
+ {
+  "para": 11,
+  "text": "Recent GPU research finds that even large-batch inference can remain limited by DRAM bandwidth, especially in attention kernels.",
+  "start": 205.96,
+  "end": 212.56,
+  "words": [
+   {
+    "w": "Recent",
+    "start": 205.96,
+    "end": 205.96
+   },
+   {
+    "w": "GPU",
+    "start": 205.96,
+    "end": 206.34
+   },
+   {
+    "w": "research",
+    "start": 206.34,
+    "end": 206.78
+   },
+   {
+    "w": "finds",
+    "start": 206.78,
+    "end": 207.12
+   },
+   {
+    "w": "that",
+    "start": 207.12,
+    "end": 207.44
+   },
+   {
+    "w": "even",
+    "start": 207.44,
+    "end": 207.74
+   },
+   {
+    "w": "large-batch",
+    "start": 207.74,
+    "end": 208.4
+   },
+   {
+    "w": "inference",
+    "start": 208.4,
+    "end": 208.8
+   },
+   {
+    "w": "can",
+    "start": 208.8,
+    "end": 209.1
+   },
+   {
+    "w": "remain",
+    "start": 209.1,
+    "end": 209.36
+   },
+   {
+    "w": "limited",
+    "start": 209.36,
+    "end": 209.78
+   },
+   {
+    "w": "by",
+    "start": 209.78,
+    "end": 210.12
+   },
+   {
+    "w": "DRAM",
+    "start": 210.12,
+    "end": 210.42
+   },
+   {
+    "w": "bandwidth,",
+    "start": 210.42,
+    "end": 211.2
+   },
+   {
+    "w": "especially",
+    "start": 211.2,
+    "end": 211.64
+   },
+   {
+    "w": "in",
+    "start": 211.64,
+    "end": 211.86
+   },
+   {
+    "w": "attention",
+    "start": 211.86,
+    "end": 212.14
+   },
+   {
+    "w": "kernels.",
+    "start": 212.14,
+    "end": 212.56
+   }
+  ]
+ },
+ {
+  "para": 12,
+  "text": "Eventually, more requests stop delivering proportional throughput gains.",
+  "start": 213.32,
+  "end": 217.06,
+  "words": [
+   {
+    "w": "Eventually,",
+    "start": 213.32,
+    "end": 213.96
+   },
+   {
+    "w": "more",
+    "start": 213.96,
+    "end": 214.14
+   },
+   {
+    "w": "requests",
+    "start": 214.14,
+    "end": 214.6
+   },
+   {
+    "w": "stop",
+    "start": 214.6,
+    "end": 214.88
+   },
+   {
+    "w": "delivering",
+    "start": 214.92,
+    "end": 215.34
+   },
+   {
+    "w": "proportional",
+    "start": 215.34,
+    "end": 215.84
+   },
+   {
+    "w": "throughput",
+    "start": 215.84,
+    "end": 216.16
+   },
+   {
+    "w": "gains.",
+    "start": 216.16,
+    "end": 217.06
+   }
+  ]
+ },
+ {
+  "para": 12,
+  "text": "KV-cache capacity, bandwidth, compute, kernel efficiency, and latency targets shape the useful batch size.",
+  "start": 217.12,
+  "end": 224.06,
+  "words": [
+   {
+    "w": "KV-cache",
+    "start": 217.12,
+    "end": 217.6
+   },
+   {
+    "w": "capacity,",
+    "start": 217.6,
+    "end": 218.46
+   },
+   {
+    "w": "bandwidth,",
+    "start": 218.46,
+    "end": 219.24
+   },
+   {
+    "w": "compute,",
+    "start": 219.6,
+    "end": 219.92
+   },
+   {
+    "w": "kernel",
+    "start": 219.96,
+    "end": 220.2
+   },
+   {
+    "w": "efficiency,",
+    "start": 220.2,
+    "end": 220.98
+   },
+   {
+    "w": "and",
+    "start": 220.98,
+    "end": 221.1
+   },
+   {
+    "w": "latency",
+    "start": 221.1,
+    "end": 221.46
+   },
+   {
+    "w": "targets",
+    "start": 221.46,
+    "end": 221.9
+   },
+   {
+    "w": "shape",
+    "start": 221.96,
+    "end": 222.32
+   },
+   {
+    "w": "the",
+    "start": 222.32,
+    "end": 222.48
+   },
+   {
+    "w": "useful",
+    "start": 222.48,
+    "end": 222.84
+   },
+   {
+    "w": "batch",
+    "start": 222.84,
+    "end": 223.06
+   },
+   {
+    "w": "size.",
+    "start": 223.06,
+    "end": 224.06
+   }
+  ]
+ },
+ {
+  "para": 12,
+  "text": "Continuous batching improves scheduling; it does not repeal hardware limits.",
+  "start": 224.2,
+  "end": 227.52,
+  "words": [
+   {
+    "w": "Continuous",
+    "start": 224.2,
+    "end": 224.34
+   },
+   {
+    "w": "batching",
+    "start": 224.34,
+    "end": 224.76
+   },
+   {
+    "w": "improves",
+    "start": 224.76,
+    "end": 225.12
+   },
+   {
+    "w": "scheduling;",
+    "start": 225.12,
+    "end": 225.84
+   },
+   {
+    "w": "it",
+    "start": 225.96,
+    "end": 226.06
+   },
+   {
+    "w": "does",
+    "start": 226.06,
+    "end": 226.46
+   },
+   {
+    "w": "not",
+    "start": 226.46,
+    "end": 226.7
+   },
+   {
+    "w": "repeal",
+    "start": 226.7,
+    "end": 227.06
+   },
+   {
+    "w": "hardware",
+    "start": 227.06,
+    "end": 227.42
+   },
+   {
+    "w": "limits.",
+    "start": 227.42,
+    "end": 227.52
+   }
+  ]
+ },
+ {
+  "para": 13,
+  "text": "Return to our opening scene.",
+  "start": 228.7,
+  "end": 230.08,
+  "words": [
+   {
+    "w": "Return",
+    "start": 228.7,
+    "end": 228.7
+   },
+   {
+    "w": "to",
+    "start": 228.7,
+    "end": 228.84
+   },
+   {
+    "w": "our",
+    "start": 228.84,
+    "end": 229.02
+   },
+   {
+    "w": "opening",
+    "start": 229.02,
+    "end": 229.22
+   },
+   {
+    "w": "scene.",
+    "start": 229.22,
+    "end": 230.08
+   }
+  ]
+ },
+ {
+  "para": 13,
+  "text": "Continuous batching removes the request-level completion barrier.",
+  "start": 230.3,
+  "end": 233.36,
+  "words": [
+   {
+    "w": "Continuous",
+    "start": 230.3,
+    "end": 230.46
+   },
+   {
+    "w": "batching",
+    "start": 230.46,
+    "end": 230.86
+   },
+   {
+    "w": "removes",
+    "start": 230.86,
+    "end": 231.2
+   },
+   {
+    "w": "the",
+    "start": 231.2,
+    "end": 231.44
+   },
+   {
+    "w": "request-level",
+    "start": 231.52,
+    "end": 232.04
+   },
+   {
+    "w": "completion",
+    "start": 232.04,
+    "end": 232.48
+   },
+   {
+    "w": "barrier.",
+    "start": 232.48,
+    "end": 233.36
+   }
+  ]
+ },
+ {
+  "para": 13,
+  "text": "Selective batching lets different sequence lengths share compatible operations.",
+  "start": 233.56,
+  "end": 236.96,
+  "words": [
+   {
+    "w": "Selective",
+    "start": 233.56,
+    "end": 233.74
+   },
+   {
+    "w": "batching",
+    "start": 233.74,
+    "end": 234.14
+   },
+   {
+    "w": "lets",
+    "start": 234.14,
+    "end": 234.34
+   },
+   {
+    "w": "different",
+    "start": 234.52,
+    "end": 234.76
+   },
+   {
+    "w": "sequence",
+    "start": 234.76,
+    "end": 235.16
+   },
+   {
+    "w": "lengths",
+    "start": 235.16,
+    "end": 235.48
+   },
+   {
+    "w": "share",
+    "start": 235.5,
+    "end": 235.82
+   },
+   {
+    "w": "compatible",
+    "start": 235.84,
+    "end": 236.3
+   },
+   {
+    "w": "operations.",
+    "start": 236.3,
+    "end": 236.96
+   }
+  ]
+ },
+ {
+  "para": 13,
+  "text": "PagedAttention packs KV caches into blocks.",
+  "start": 237.48,
+  "end": 239.88,
+  "words": [
+   {
+    "w": "PagedAttention",
+    "start": 237.48,
+    "end": 238.12
+   },
+   {
+    "w": "packs",
+    "start": 238.12,
+    "end": 238.46
+   },
+   {
+    "w": "KV",
+    "start": 238.54,
+    "end": 238.9
+   },
+   {
+    "w": "caches",
+    "start": 238.9,
+    "end": 239.24
+   },
+   {
+    "w": "into",
+    "start": 239.24,
+    "end": 239.58
+   },
+   {
+    "w": "blocks.",
+    "start": 239.58,
+    "end": 239.88
+   }
+  ]
+ },
+ {
+  "para": 13,
+  "text": "Chunked prefill stops one enormous prompt from monopolizing an iteration.",
+  "start": 240.5,
+  "end": 243.88,
+  "words": [
+   {
+    "w": "Chunked",
+    "start": 240.5,
+    "end": 240.8
+   },
+   {
+    "w": "prefill",
+    "start": 240.8,
+    "end": 241.12
+   },
+   {
+    "w": "stops",
+    "start": 241.12,
+    "end": 241.4
+   },
+   {
+    "w": "one",
+    "start": 241.4,
+    "end": 241.68
+   },
+   {
+    "w": "enormous",
+    "start": 241.68,
+    "end": 242.28
+   },
+   {
+    "w": "prompt",
+    "start": 242.38,
+    "end": 242.58
+   },
+   {
+    "w": "from",
+    "start": 242.58,
+    "end": 242.84
+   },
+   {
+    "w": "monopolizing",
+    "start": 242.84,
+    "end": 243.4
+   },
+   {
+    "w": "an",
+    "start": 243.4,
+    "end": 243.58
+   },
+   {
+    "w": "iteration.",
+    "start": 243.58,
+    "end": 243.88
+   }
+  ]
+ },
+ {
+  "para": 14,
+  "text": "Fast AI serving is not simply about buying GPUs with higher peak math.",
+  "start": 245.2,
+  "end": 249.36,
+  "words": [
+   {
+    "w": "Fast",
+    "start": 245.2,
+    "end": 245.3
+   },
+   {
+    "w": "AI",
+    "start": 245.3,
+    "end": 245.64
+   },
+   {
+    "w": "serving",
+    "start": 245.64,
+    "end": 245.94
+   },
+   {
+    "w": "is",
+    "start": 245.94,
+    "end": 246.14
+   },
+   {
+    "w": "not",
+    "start": 246.14,
+    "end": 246.44
+   },
+   {
+    "w": "simply",
+    "start": 246.44,
+    "end": 246.72
+   },
+   {
+    "w": "about",
+    "start": 246.72,
+    "end": 247.02
+   },
+   {
+    "w": "buying",
+    "start": 247.02,
+    "end": 247.26
+   },
+   {
+    "w": "GPUs",
+    "start": 247.26,
+    "end": 247.86
+   },
+   {
+    "w": "with",
+    "start": 247.86,
+    "end": 248.04
+   },
+   {
+    "w": "higher",
+    "start": 248.04,
+    "end": 248.26
+   },
+   {
+    "w": "peak",
+    "start": 248.28,
+    "end": 248.48
+   },
+   {
+    "w": "math.",
+    "start": 248.48,
+    "end": 249.36
+   }
+  ]
+ },
+ {
+  "para": 14,
+  "text": "Decode is often a memory-bandwidth problem disguised as matrix multiplication.",
+  "start": 249.36,
+  "end": 253.16,
+  "words": [
+   {
+    "w": "Decode",
+    "start": 249.36,
+    "end": 249.7
+   },
+   {
+    "w": "is",
+    "start": 249.7,
+    "end": 249.88
+   },
+   {
+    "w": "often",
+    "start": 249.88,
+    "end": 250.24
+   },
+   {
+    "w": "a",
+    "start": 250.24,
+    "end": 250.48
+   },
+   {
+    "w": "memory-bandwidth",
+    "start": 251.0,
+    "end": 251.1
+   },
+   {
+    "w": "problem",
+    "start": 251.1,
+    "end": 251.52
+   },
+   {
+    "w": "disguised",
+    "start": 251.6,
+    "end": 252.1
+   },
+   {
+    "w": "as",
+    "start": 252.1,
+    "end": 252.3
+   },
+   {
+    "w": "matrix",
+    "start": 252.3,
+    "end": 252.62
+   },
+   {
+    "w": "multiplication.",
+    "start": 252.62,
+    "end": 253.16
+   }
+  ]
+ },
+ {
+  "para": 14,
+  "text": "The scheduler must keep useful work in flight, reuse model-weight reads across active requests, and prevent one slow prompt from stalling everyone else.",
+  "start": 253.84,
+  "end": 261.44,
+  "words": [
+   {
+    "w": "The",
+    "start": 253.84,
+    "end": 254.08
+   },
+   {
+    "w": "scheduler",
+    "start": 254.08,
+    "end": 254.42
+   },
+   {
+    "w": "must",
+    "start": 254.42,
+    "end": 254.64
+   },
+   {
+    "w": "keep",
+    "start": 254.7,
+    "end": 254.88
+   },
+   {
+    "w": "useful",
+    "start": 254.88,
+    "end": 255.18
+   },
+   {
+    "w": "work",
+    "start": 255.18,
+    "end": 255.4
+   },
+   {
+    "w": "in",
+    "start": 255.4,
+    "end": 255.68
+   },
+   {
+    "w": "flight,",
+    "start": 255.68,
+    "end": 256.42
+   },
+   {
+    "w": "reuse",
+    "start": 256.42,
+    "end": 256.72
+   },
+   {
+    "w": "model-weight",
+    "start": 256.72,
+    "end": 257.18
+   },
+   {
+    "w": "reads",
+    "start": 257.18,
+    "end": 257.42
+   },
+   {
+    "w": "across",
+    "start": 257.72,
+    "end": 257.82
+   },
+   {
+    "w": "active",
+    "start": 257.82,
+    "end": 258.14
+   },
+   {
+    "w": "requests,",
+    "start": 258.14,
+    "end": 259.1
+   },
+   {
+    "w": "and",
+    "start": 259.1,
+    "end": 259.26
+   },
+   {
+    "w": "prevent",
+    "start": 259.26,
+    "end": 259.48
+   },
+   {
+    "w": "one",
+    "start": 259.48,
+    "end": 259.78
+   },
+   {
+    "w": "slow",
+    "start": 259.78,
+    "end": 260.1
+   },
+   {
+    "w": "prompt",
+    "start": 260.1,
+    "end": 260.38
+   },
+   {
+    "w": "from",
+    "start": 260.44,
+    "end": 260.76
+   },
+   {
+    "w": "stalling",
+    "start": 260.76,
+    "end": 261.12
+   },
+   {
+    "w": "everyone",
+    "start": 261.12,
+    "end": 261.32
+   },
+   {
+    "w": "else.",
+    "start": 261.32,
+    "end": 261.44
+   }
+  ]
+ },
+ {
+  "para": 15,
+  "text": "So next time an AI reply briefly pauses, remember what may be happening behind the chat window: a scheduler is trying to fit one more piece into the GPU's Tetris board.",
+  "start": 262.42,
+  "end": 270.96,
+  "words": [
+   {
+    "w": "So",
+    "start": 262.42,
+    "end": 262.54
+   },
+   {
+    "w": "next",
+    "start": 262.74,
+    "end": 262.84
+   },
+   {
+    "w": "time",
+    "start": 262.84,
+    "end": 263.04
+   },
+   {
+    "w": "an",
+    "start": 263.04,
+    "end": 263.24
+   },
+   {
+    "w": "AI",
+    "start": 263.24,
+    "end": 263.44
+   },
+   {
+    "w": "reply",
+    "start": 263.44,
+    "end": 263.72
+   },
+   {
+    "w": "briefly",
+    "start": 263.72,
+    "end": 264.16
+   },
+   {
+    "w": "pauses,",
+    "start": 264.16,
+    "end": 265.02
+   },
+   {
+    "w": "remember",
+    "start": 265.02,
+    "end": 265.26
+   },
+   {
+    "w": "what",
+    "start": 265.26,
+    "end": 265.44
+   },
+   {
+    "w": "may",
+    "start": 265.44,
+    "end": 265.62
+   },
+   {
+    "w": "be",
+    "start": 265.62,
+    "end": 265.84
+   },
+   {
+    "w": "happening",
+    "start": 265.84,
+    "end": 266.06
+   },
+   {
+    "w": "behind",
+    "start": 266.06,
+    "end": 266.36
+   },
+   {
+    "w": "the",
+    "start": 266.4,
+    "end": 266.5
+   },
+   {
+    "w": "chat",
+    "start": 266.58,
+    "end": 266.68
+   },
+   {
+    "w": "window:",
+    "start": 266.68,
+    "end": 266.8
+   },
+   {
+    "w": "a",
+    "start": 267.38,
+    "end": 267.58
+   },
+   {
+    "w": "scheduler",
+    "start": 267.58,
+    "end": 267.96
+   },
+   {
+    "w": "is",
+    "start": 267.96,
+    "end": 268.12
+   },
+   {
+    "w": "trying",
+    "start": 268.12,
+    "end": 268.24
+   },
+   {
+    "w": "to",
+    "start": 268.24,
+    "end": 268.42
+   },
+   {
+    "w": "fit",
+    "start": 268.52,
+    "end": 268.62
+   },
+   {
+    "w": "one",
+    "start": 268.62,
+    "end": 268.96
+   },
+   {
+    "w": "more",
+    "start": 268.96,
+    "end": 269.24
+   },
+   {
+    "w": "piece",
+    "start": 269.28,
+    "end": 269.46
+   },
+   {
+    "w": "into",
+    "start": 269.46,
+    "end": 269.68
+   },
+   {
+    "w": "the",
+    "start": 269.68,
+    "end": 269.84
+   },
+   {
+    "w": "GPU's",
+    "start": 269.84,
+    "end": 270.28
+   },
+   {
+    "w": "Tetris",
+    "start": 270.36,
+    "end": 270.56
+   },
+   {
+    "w": "board.",
+    "start": 270.56,
+    "end": 270.96
+   }
+  ]
+ }
+]

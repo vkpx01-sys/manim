@@ -1,0 +1,33 @@
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+<p><prosody rate="86%">Imagine one request has generated 1,400 tokens, while a new request has a short context. Their attention histories differ in length. Each query must attend to its own cached keys and values. How can mismatched streams share a forward pass?</prosody></p>
+
+<p><break time="750ms"/> <prosody rate="92%">Orca's answer was selective batching. Linear projections, including Query, Key, and Value, and the feedforward layers apply the same weights independently to each current token vector. Those vectors can be stacked into one batch, even when their conversations are at different positions.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="92%">Attention is different: each request must read its own history. Orca splits the batch before attention, processes attention separately for each request, then merges the results so later operations can be batched again. This is the selective-batching design in Orca's original paper.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="92%">In its full GPT-3 175-billion-parameter serving evaluation across 16 A100 GPUs, Orca reported 36.9 times higher throughput than request-level FasterTransformer at comparable median latency. That is a specific 2022 benchmark, not a guaranteed multiplier for every system.</prosody></p>
+
+<p><break time="500ms"/> <prosody rate="92%">But once requests enter and leave freely, memory fragmentation becomes a problem. Reserving one contiguous, maximum-length <say-as interpret-as="characters">KV</say-as>-cache region for every request leaves much of that space unused for short conversations. These holes can prevent the system from fitting more requests into VRAM.</prosody></p>
+
+<p><break time="400ms"/> <prosody rate="92%">PagedAttention tackles this with a virtual-memory-inspired design. It divides each request's <say-as interpret-as="characters">KV</say-as> cache into fixed-size blocks instead of requiring one contiguous slab. A block table maps each request's token positions to physical GPU-memory blocks.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="92%">Blocks are allocated as sequences grow and returned to the memory pool when no longer needed. This greatly reduces fragmentation and avoids reserving a huge slab for every request. It makes VRAM more efficiently shareable; it does not make physical memory unlimited.</prosody></p>
+
+<p><break time="550ms"/> <prosody rate="86%">One more stall can still disrupt the stream. Imagine 31 chats generating smoothly when a new request arrives with a 10,000-token codebase prompt. If the scheduler processes that entire prefill in one monolithic step, it can delay the next decode step for all 31 chats.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="86%">Sarathi-Serve addresses this with chunked prefill. The scheduler divides a long prompt into bounded pieces. With a 512-token budget, for example, it schedules 31 ongoing decode tokens first, then uses the remaining 481 positions for part of the new prompt. Another chunk can run in a later iteration.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="86%">This limits how much a long prefill can interrupt ongoing decode. Combining compute-heavy prefill work with memory-bound decode can also increase useful computation alongside model-weight traffic, using GPU capacity that decode alone may leave underutilized. The benefit depends on workload and scheduler settings.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="92%">The trade-off is time-to-first-token: spreading a prompt across iterations can delay its first response. Chunk size balances prompt latency against smooth streaming. A separate approach, disaggregated serving, runs prefill and decode on different GPU pools. That reduces phase interference but requires transferring <say-as interpret-as="characters">KV</say-as>-cache state between them.</prosody></p>
+
+<p><break time="550ms"/> <prosody rate="92%">And remember, the 295-FLOPs-per-byte ridge is not a universal batch-size limit. It is an idealized calculation based on model-weight traffic. Larger batches and longer contexts add <say-as interpret-as="characters">KV</say-as>-cache reads. Recent GPU research finds that even large-batch inference can remain limited by DRAM bandwidth, especially in attention kernels.</prosody></p>
+
+<p><break time="450ms"/> <prosody rate="92%">Eventually, more requests stop delivering proportional throughput gains. <say-as interpret-as="characters">KV</say-as>-cache capacity, bandwidth, compute, kernel efficiency, and latency targets shape the useful batch size. Continuous batching improves scheduling; it does not repeal hardware limits.</prosody></p>
+
+<p><break time="600ms"/> <prosody rate="92%">Return to our opening scene. Continuous batching removes the request-level completion barrier. Selective batching lets different sequence lengths share compatible operations. PagedAttention packs <say-as interpret-as="characters">KV</say-as> caches into blocks. Chunked prefill stops one enormous prompt from monopolizing an iteration.</prosody></p>
+
+<p><break time="500ms"/> <prosody rate="92%">Fast AI serving is not simply about buying GPUs with higher peak math. Decode is often a memory-bandwidth problem disguised as matrix multiplication. The scheduler must keep useful work in flight, reuse model-weight reads across active requests, and prevent one slow prompt from stalling everyone else.</prosody></p>
+
+<p><break time="500ms"/> <prosody rate="92%">So next time an AI reply briefly pauses, remember what may be happening behind the chat window: a scheduler is trying to fit one more piece into the GPU's Tetris board.</prosody></p>
+</speak>
